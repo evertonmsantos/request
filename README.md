@@ -40,7 +40,7 @@ func main() {
     "User-Agent": "Go-http-client/2.0",
     "X-Amzn-Trace-Id": "Root=1-62fd1be9-69f4867c2900732c45c4421c"
   },
-  "origin": "170.80.186.84",
+  "origin": "",
   "url": "https://httpbin.org/get"
 }
  map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Content-Length:[240] Content-Type:[application/json] Date:[Wed, 17 Aug 2022 16:48:41 GMT] Server:[gunicorn/19.9.0]]}
