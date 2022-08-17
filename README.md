@@ -3,7 +3,7 @@
 ##### Como instalar
 
 ```
-go get github.com/evertonmsantos/request/
+go get github.com/evertonmsantos/request
 ```
 
 ##### Código exemplo usando o método GET
