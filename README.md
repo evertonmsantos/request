@@ -30,7 +30,7 @@ func main() {
 }
 ```
 
-##### Retorno
+##### Retorno - interface{}
 
 ```
 &{200 OK 200 240 {
