@@ -23,7 +23,6 @@ func Trace(url string, headers map[string]string, followlocation bool) (*Respons
 		Timeout: 60 * time.Second,
 		Transport: &http.Transport{
 			IdleConnTimeout:    60 * time.Second,
-			DisableCompression: true,
 		},
 	}
 
