@@ -23,7 +23,6 @@ func Options(url string, headers map[string]string, followlocation bool) (*Respo
 		Timeout: 60 * time.Second,
 		Transport: &http.Transport{
 			IdleConnTimeout:    60 * time.Second,
-			DisableCompression: true,
 		},
 	}
 
