@@ -24,7 +24,6 @@ func Delete(url, postdata string, headers map[string]string, followlocation bool
 		Timeout: 60 * time.Second,
 		Transport: &http.Transport{
 			IdleConnTimeout:    60 * time.Second,
-			DisableCompression: true,
 		},
 	}
 
