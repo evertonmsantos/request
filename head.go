@@ -23,7 +23,6 @@ func Head(url string, headers map[string]string, followlocation bool) (*Response
 		Timeout: 60 * time.Second,
 		Transport: &http.Transport{
 			IdleConnTimeout:    60 * time.Second,
-			DisableCompression: true,
 		},
 	}
 
