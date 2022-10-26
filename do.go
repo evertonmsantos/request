@@ -31,7 +31,6 @@ func Do(method, urli, postdata string, headers map[string]string, followlocation
 		Timeout: 60 * time.Second,
 		Transport: &http.Transport{
 			IdleConnTimeout:    60 * time.Second,
-			DisableCompression: true,
 			Proxy:              http.ProxyURL(a),
 		},
 	}
